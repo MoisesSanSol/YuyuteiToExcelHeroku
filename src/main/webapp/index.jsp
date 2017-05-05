@@ -185,7 +185,7 @@
   <input type="checkbox" name="trial" value = "true" checked="yes">Incluir trial deck<br>
   <input type="checkbox" name="promocionales" value = "true" checked="yes">Incluir promocionales<br>
    <input type="checkbox" name="imagenes" value = "true">Incluir imágenes<br>
-   <p>Dependiendo del número de cartas en el set el generar la generación con imágnes puede tardar varios minutos.</p>
+   <p>Dependiendo del número de cartas en el set la generación con imágnes puede tardar varios minutos.</p>
 </form>
 </body>
 </html>
