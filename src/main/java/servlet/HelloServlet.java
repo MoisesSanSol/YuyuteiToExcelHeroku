@@ -24,13 +24,23 @@ public class HelloServlet extends HttpServlet {
     	
     	byte[] bytes = new byte[0];
     	
-    	String yytSeries = request.getParameter("series"); 
+    	String yytSeries = request.getParameter("series");
+    	boolean imagenes = Boolean.parseBoolean(request.getParameter("imagenes"));
+    	boolean foils = Boolean.parseBoolean(request.getParameter("paralelas"));
+    	boolean trial = Boolean.parseBoolean(request.getParameter("trial"));
+    	boolean promos = Boolean.parseBoolean(request.getParameter("promocionales"));
     	
     	try{
 	    	YuyuteiScrapper yytscrapper = new YuyuteiScrapper();
 	    	ToExcel formatter = new ToExcel();
-			ArrayList<CardRow> cards = yytscrapper.parseYuyuteiPage("http://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=" + yytSeries);
-			bytes = formatter.generateExcel(cards);
+			ArrayList<CardRow> allCards = yytscrapper.parseYuyuteiPage("http://yuyu-tei.jp/game_ws/sell/sell_price.php?ver=" + yytSeries);
+			ArrayList<CardRow> filteredCards = formatter.filtrarSet(allCards, foils, trial, promos);
+			if(imagenes){
+				bytes = formatter.generateExcelwImages(filteredCards);
+			}
+			else{
+				bytes = formatter.generateExcel(filteredCards);
+			}
     	}
     	catch(Exception everthing){
     		//Ignore

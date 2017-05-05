@@ -179,8 +179,13 @@
 
 </select>
 <form action="/yyt2xls" method="get" id="serieslist">
-  <br>
-  <input type="submit" value="Generar Excel">
+<br>
+  <input type="submit" value="Generar Excel"><br><br>
+  <input type="checkbox" name="paralelas" value = "true" checked="yes">Incluir paralelas<br>
+  <input type="checkbox" name="trial" value = "true" checked="yes">Incluir trial deck<br>
+  <input type="checkbox" name="promocionales" value = "true" checked="yes">Incluir promocionales<br>
+   <input type="checkbox" name="imagenes" value = "true">Incluir imágenes<br>
+   <p>Dependiendo del número de cartas en el set el generar la generación con imágnes puede tardar varios minutos.</p>
 </form>
 </body>
 </html>

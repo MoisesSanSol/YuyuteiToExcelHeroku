@@ -8,5 +8,6 @@ public class CardRow {
 	String sale;
 	String stock;
 	String url;
+	String imgUrl;
 	
 }
