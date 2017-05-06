@@ -185,9 +185,9 @@
   <input type="checkbox" name="trial" value = "true" checked="yes">Incluir trial deck<br>
   <input type="checkbox" name="promocionales" value = "true" checked="yes">Incluir promocionales<br>
    <input type="checkbox" name="imagenes" value = "true">(*) Incluir imágenes<br>
-   <p>(*) Debido a un limite de tiempo al procesor respuesta, el excel con imágenes falla casi siempre para colecciones más agrandes de un extra booster (sin paralelas), cuando tenag tiempo miraré como evitarlo.</p>
+   <p>(*) Debido a un limite de tiempo al procesor respuesta, el excel con imágenes falla casi siempre para colecciones más agrandes de un extra booster (sin paralelas), cuando tenga tiempo miraré como evitarlo.</p>
 <p>Dependiendo del número de cartas en el set la generación con imágenes puede tardar varios minutos (si no falla directamente).</p>
-   <p>Tengo pendiente incluir una columna con el color de las cartas, ya que en la página de set de yuytei no está definido el color de las cartas</p>
+   <p>Tengo pendiente incluir una columna con el color de las cartas, ya que en la página de set de yuytei no está definido el color de las cartas.</p>
    <p>Tengo pendiente traducir el selector en vez de usar los nombres yuytei (si alguien se anima en hacerlo y pasarme la relación, bienvenido sea).</p>
 </form>
 </body>
