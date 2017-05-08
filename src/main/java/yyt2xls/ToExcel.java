@@ -2,6 +2,8 @@ package yyt2xls;
 
 import java.awt.Dimension;
 import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 
 import org.apache.poi.hssf.usermodel.HSSFHyperlink;
@@ -19,9 +21,11 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.CellRangeAddress;
+import org.apache.poi.util.IOUtils;
 
 public class ToExcel {
 
+	float progress;
 	
 	public byte[] generateExcel(ArrayList<CardRow> cards) throws Exception{
 		
@@ -116,7 +120,7 @@ public class ToExcel {
 		return bytes;
 	}
 	
-	public byte[] generateExcelwImages(ArrayList<CardRow> cards) throws Exception{
+	public void generateExcelwImages(ArrayList<CardRow> cards) throws Exception{
 		
 		Workbook excel = new HSSFWorkbook();
         Sheet hoja = excel.createSheet("Precios");
@@ -159,6 +163,8 @@ public class ToExcel {
         
 		for (CardRow card : cards) {
 			
+			//System.out.println("Hey! Card! " + card.cardId);
+			
 			count++;
 			
 			Row fila = hoja.createRow(count);
@@ -199,6 +205,8 @@ public class ToExcel {
 	        
 	        int pictureIndex = excel.addPicture(imgBytes, Workbook.PICTURE_TYPE_PNG);
 	        drawing.createPicture(anchor, pictureIndex);
+	        
+	        progress = (float)(((double)count / (double)cards.size()) * 100);
 		}
 
 		hoja.setAutoFilter(new CellRangeAddress(0, 0, 1, 6));
@@ -219,9 +227,13 @@ public class ToExcel {
 		    bos.close();
 		}
 		
-		byte[] bytes = bos.toByteArray();
-		
-		return bytes;
+		FileOutputStream archivo = new FileOutputStream("excel.xls");
+		excel.write(archivo);
+        archivo.close();
+        excel.close();
+
+        //byte[] bytes = bos.toByteArray();
+        //return bytes;
 	}
 	
 	public ArrayList<CardRow> filtrarSet(ArrayList<CardRow> cards, boolean foils, boolean trial, boolean promos){
@@ -251,6 +263,10 @@ public class ToExcel {
 		}
 		
 		return filteredCards;
+	}
+	
+	public float getProgress(){
+		return progress;
 	}
 	
 }

@@ -1,5 +1,8 @@
 ﻿<html>
 <meta charset="utf-8">
+<head>
+<title>Show progress of long running process with help of Thread and Ajax.</title>
+</head>
 <body>
 <h2></h2>
   <br>Colección:<br>
@@ -86,7 +89,7 @@
 <option value="gochiusa">ご注文はうさぎですか？？</option>
 <option value="gochiusaext">ご注文はうさぎですか？？Extra</option>
 <option value="bd">BanG Dream!</option>
-<option value="konosuba">この素晴らしい世界に祝福を！</option>
+<option value="konosuba">Konosuba - この素晴らしい世界に祝福を！</option>
 <option value="skext1.0">宇宙をかける少女 Vol.1</option>
 <option value="mhext1.0">舞-HiME＆舞-乙HiME Vol.1</option>
 <option value="skext2.0">宇宙をかける少女 Vol.2</option>
@@ -178,7 +181,7 @@
 <option value="promo">その他プロモーションカード</option>
 
 </select>
-<form action="/yyt2xls" method="get" id="serieslist">
+<form action="/yyt2xls" method="post" id="serieslist">
 <br>
   <input type="submit" value="Generar Excel"><br><br>
   <input type="checkbox" name="paralelas" value = "true" checked="yes">Incluir paralelas<br>

@@ -1,18 +1,25 @@
 package servlet;
 
+import java.util.ArrayList;
+import yyt2xls.CardRow;
+
+import yyt2xls.ToExcel;
+
 public class BackgroundRunner extends Thread {
 
-    private int progress;
+	public ArrayList<CardRow> cards;
+    public ToExcel toExcel;
 
     public void run() {
-        while (progress < 100) {
-            try { sleep(1000); } catch (InterruptedException ignore) {}
-            progress++;
-        }
+       try{
+    	this.toExcel.generateExcelwImages(this.cards);
+       }
+       catch(Exception whatever){
+       }
     }
 
-    public int getProgress() {
-        return progress;
+    public float getProgress() {
+        return this.toExcel.getProgress();
     }
 
 }

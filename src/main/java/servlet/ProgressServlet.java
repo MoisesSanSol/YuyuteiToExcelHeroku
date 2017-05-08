@@ -1,5 +1,7 @@
 package servlet;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -16,7 +18,7 @@ import yyt2xls.YuyuteiScrapper;
 
 @WebServlet(
         name = "TestServlet", 
-        urlPatterns = {"/runLongProcess"}
+        urlPatterns = {"/checkExcelProgress"}
     )
 public class ProgressServlet extends HttpServlet {
 
@@ -24,22 +26,35 @@ public class ProgressServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
         {
+    	
             if ("XMLHttpRequest".equals(request.getHeader("x-requested-with"))) {
+
             	BackgroundRunner longProcess = (BackgroundRunner) request.getSession().getAttribute("longProcess");
                 response.setContentType("application/json");
-                response.getWriter().write(String.valueOf(longProcess.getProgress()));
+                float progress = longProcess.getProgress();
+                
+                //System.out.println("Hey! Checking!" + progress);
+                
+                if(progress == 100){
+                	request.getSession().removeAttribute("longProcess");
+                }
+                
+               	response.getWriter().write(String.valueOf(progress));
+
             } else {
-                request.getRequestDispatcher("runLongProcess.jsp").forward(request, response);
+                request.getRequestDispatcher("generandoExcel.jsp").forward(request, response);
             }
         }
 
-        protected void doPost(HttpServletRequest request, HttpServletResponse response)
+        /*protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
         {
+        	
+        	System.out.println("Hey! Post!");
         	BackgroundRunner longProcess = new BackgroundRunner();
             longProcess.setDaemon(true);
             longProcess.start();
             request.getSession().setAttribute("longProcess", longProcess);
             request.getRequestDispatcher("runLongProcess.jsp").forward(request, response);
-        }
+        }*/
 }
