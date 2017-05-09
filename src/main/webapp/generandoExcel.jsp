@@ -9,29 +9,36 @@
 
             function init() {
                 if (${not empty longProcess}) {
-                    $.progress = 0;
+                    $.cartasProgress = 0;
+                    $.excelProgress = 0;
+                    $("#atras").hide();
                     checkProgress();
                 }
             }
 
             function checkProgress() {
-            	if ($.progress < 100) {
-                $.getJSON('checkExcelProgress', function(progress) {
-                    $('#progress').text(progress);
-                    $.progress = parseFloat(progress).toFixed(2);
-                });
+				if ($.excelProgress < 100) {
+	                $.getJSON('checkExcelProgress', function(progressJSON) {
+	                    $.cartasProgress = progressJSON.cartas;
+	                    $("#cartasProgress").text($.cartasProgress);
+	                    $.excelProgress = progressJSON.excel;
+	                    $("#excelProgress").text($.excelProgress);
+	                });
                     setTimeout(checkProgress, 2000);
                 }
             	else{
             		document.getElementById("download").submit();
+            		$("#atras").show();
             	}
             }
         </script>
     </head>
     <body>
-	    <p>Generando excel: <span id="progress">0</span>%</p>
+    	<p>Obteniendo cartas: <span id="cartasProgress">0</span>%</p>
+	    <p>Generando excel: <span id="excelProgress">0</span>%</p>
 	    <form action="download" id="download">
-	  <input type="hidden" value="Submit">
+		  <input type="hidden" value="submitDownload">
 		</form>
+		<button onclick="location.href='index.jsp'" id="atras">Nueva consulta</button>
     </body>
 </html>

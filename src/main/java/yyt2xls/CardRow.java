@@ -3,11 +3,12 @@ package yyt2xls;
 public class CardRow {
 
 	public String cardId;
-	String rarity;
-	String price;
-	String sale;
-	String stock;
-	String url;
-	String imgUrl;
+	public String rarity;
+	public String price;
+	public String sale;
+	public String stock;
+	public String url;
+	public String imgUrl;
+	public String color;
 	
 }

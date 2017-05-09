@@ -1,4 +1,4 @@
-package src.main.java.servlet;
+package servlet;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
@@ -31,9 +31,10 @@ public class DownloadServlet extends HttpServlet {
     	
       	
     	try{
-    		
+    		BackgroundRunner longProcess = (BackgroundRunner) request.getSession().getAttribute("longProcess");
             response.setContentType("application/vnd.ms-excel");
-            response.setHeader("Content-Disposition", "attachment; filename=yuyutei.xls");
+            response.setHeader("Content-Disposition", "attachment; filename=" + longProcess.yytSeries + "_yyt_export.xls");
+            request.getSession().removeAttribute("longProcess");
 			File oldFile = new File("excel.xls");
 			FileInputStream in = new FileInputStream(oldFile);
 	        ServletOutputStream out = response.getOutputStream();

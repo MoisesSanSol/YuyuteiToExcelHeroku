@@ -31,15 +31,17 @@ public class ProgressServlet extends HttpServlet {
 
             	BackgroundRunner longProcess = (BackgroundRunner) request.getSession().getAttribute("longProcess");
                 response.setContentType("application/json");
-                float progress = longProcess.getProgress();
+                String cartasProgress = longProcess.getCartasProgress();
+                String excelProgress = longProcess.getExcelProgress();
                 
                 //System.out.println("Hey! Checking!" + progress);
                 
-                if(progress == 100){
-                	request.getSession().removeAttribute("longProcess");
+                if(excelProgress.equals("100")){
+                	//request.getSession().removeAttribute("longProcess");
                 }
-                
-               	response.getWriter().write(String.valueOf(progress));
+                response.setContentType("application/json");
+                String json = "{\"cartas\": \"" + cartasProgress + "\", \"excel\": \"" + excelProgress + "\"}";
+               	response.getWriter().write(json);
 
             } else {
                 request.getRequestDispatcher("generandoExcel.jsp").forward(request, response);

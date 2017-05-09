@@ -1,7 +1,7 @@
 ﻿<html>
 <meta charset="utf-8">
 <head>
-<title>Show progress of long running process with help of Thread and Ajax.</title>
+<title>Descargar precios de yuyutei como excel</title>
 </head>
 <body>
 <h2></h2>
@@ -187,11 +187,10 @@
   <input type="checkbox" name="paralelas" value = "true" checked="yes">Incluir paralelas<br>
   <input type="checkbox" name="trial" value = "true" checked="yes">Incluir trial deck<br>
   <input type="checkbox" name="promocionales" value = "true" checked="yes">Incluir promocionales<br>
-   <input type="checkbox" name="imagenes" value = "true">(*) Incluir imágenes<br>
-   <p>(*) Debido a un limite de tiempo al procesor respuesta, el excel con imágenes falla casi siempre para colecciones más agrandes de un extra booster (sin paralelas), cuando tenga tiempo miraré como evitarlo.</p>
-<p>Dependiendo del número de cartas en el set la generación con imágenes puede tardar varios minutos (si no falla directamente).</p>
-   <p>Tengo pendiente incluir una columna con el color de las cartas, ya que en la página de set de yuytei no está definido el color de las cartas.</p>
-   <p>Tengo pendiente traducir el selector en vez de usar los nombres yuytei (si alguien se anima en hacerlo y pasarme la relación, bienvenido sea).</p>
+  <input type="checkbox" name="color" value = "true">Incluir color *<br>
+   <input type="checkbox" name="imagenes" value = "true">Incluir imágenes **<br>
+   <p>* En la página de precios de yuyutei no viene el color de las cartas, por lo que inluir el color hace que haya que ir buscando carta por carta e incrementa el tiempo neceario para obtener los datos de las cartas.</p>
+   <p>** Inluir imágenes incrementa el tiempo necesario para generar el excel.</p>
 </form>
 </body>
 </html>
