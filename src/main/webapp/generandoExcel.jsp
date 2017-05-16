@@ -34,7 +34,7 @@
         </script>
     </head>
     <body>
-    	<p>Obteniendo cartas: <span id="cartasProgress">0</span>%</p>
+    	<p>Obteniendo cartas: <span id="cartasProgress">0</span></p>
 	    <p>Generando excel: <span id="excelProgress">0</span>%</p>
 	    <form action="download" id="download">
 		  <input type="hidden" value="submitDownload">

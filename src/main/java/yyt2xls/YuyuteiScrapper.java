@@ -19,7 +19,12 @@ public class YuyuteiScrapper {
 	public boolean trial = false;
 	public boolean withColor = false;
 	
+	public boolean local = false;
+	
 	public ArrayList<CardRow> parseYuyuteiPage(String pageUrl) throws Exception{
+		
+    	System.out.println("Parsing from yuyu-tei");
+		
 		ArrayList<CardRow> cardRows = new ArrayList<CardRow>();
 		
 		Document doc = Jsoup.connect(pageUrl).maxBodySize(0).get();
@@ -70,31 +75,13 @@ public class YuyuteiScrapper {
 			count++;
 			
 			this.progress = (float)(((float)count / (float)cards.size()) * 100);
-			//System.out.println(this.progress + "%");
+			
+			if(local){
+				System.out.println(this.progress + "%");
+			}
 		}
 		
 		return cardRows;
-	}
-	
-	public byte[] getYuyuteiCardImage(String url) throws Exception{
-		
-		URL imageUrl = new URL(url);
-		
-		ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		InputStream is = null;
-		
-		is = imageUrl.openStream ();
-		byte[] byteChunk = new byte[4096];
-		int n;
-
-		while ( (n = is.read(byteChunk)) > 0 ) {
-			baos.write(byteChunk, 0, n);
-		}
-		is.close();
-		
-		byte[] bytes = baos.toByteArray();
-		
-		return bytes;
 	}
 	
 	public String getCardColor(String cardUrl) throws Exception{

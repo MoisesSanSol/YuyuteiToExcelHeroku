@@ -29,21 +29,27 @@ public class HelloServlet extends HttpServlet {
 
     	try{
     	
-	    	String yytSeries = request.getParameter("series");
+	    	String yytSeries = request.getParameter("seriesYyt");
+	    	String jktcgSeries = request.getParameter("seriesJktcg");
+	    	String submit = request.getParameter("submit");
 	    	boolean imagenes = Boolean.parseBoolean(request.getParameter("imagenes"));
 	    	boolean foils = Boolean.parseBoolean(request.getParameter("paralelas"));
 	    	boolean trial = Boolean.parseBoolean(request.getParameter("trial"));
 	    	boolean promos = Boolean.parseBoolean(request.getParameter("promocionales"));
 	    	boolean color = Boolean.parseBoolean(request.getParameter("color"));
+	    	int cant = Integer.parseInt(request.getParameter("cantidad"));
 	    	
 			BackgroundRunner longProcess = new BackgroundRunner();
             longProcess.setDaemon(true);
             longProcess.yytSeries = yytSeries;
-            longProcess.scrappper.foils = foils;
-            longProcess.scrappper.trial = trial;
-            longProcess.scrappper.promos = promos;
-            longProcess.scrappper.withColor = color;
+            longProcess.jktcgUrl = jktcgSeries;
+            longProcess.foils = foils;
+            longProcess.trial = trial;
+            longProcess.promos = promos;
+            longProcess.withColor = color;
+            longProcess.submit = submit;
             longProcess.toExcel.withImages = imagenes;
+            longProcess.toExcel.initialCant = cant;
             longProcess.start();
             
             request.getSession().setAttribute("longProcess", longProcess);

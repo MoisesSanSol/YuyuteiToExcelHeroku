@@ -1,6 +1,8 @@
 package yyt2xls;
 
 import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 
 import org.apache.poi.hssf.usermodel.HSSFHyperlink;
@@ -22,6 +24,9 @@ public class ToExcel {
 
 	public float progress = 0;
 	public boolean withImages = false;
+	public int initialCant = 4;
+
+	public boolean local = false;
 	
 	public byte[] generateExcel(ArrayList<CardRow> cards) throws Exception{
 		
@@ -29,7 +34,6 @@ public class ToExcel {
         Sheet hoja = excel.createSheet("Precios");
         CreationHelper helper =  excel.getCreationHelper();
         Drawing drawing = hoja.createDrawingPatriarch();
-        YuyuteiScrapper yytScrapper = new YuyuteiScrapper();
         
         int initialColumn = 0;
 
@@ -46,7 +50,8 @@ public class ToExcel {
         Cell headerStock = headers.createCell(initialColumn + 5);
         Cell headerCuantas = headers.createCell(initialColumn + 6);
         Cell headerTotal = headers.createCell(initialColumn + 7);
-        Cell total = headers.createCell(initialColumn + 8);
+        Cell totalCards = headers.createCell(initialColumn + 8);
+        Cell totalValue = headers.createCell(initialColumn + 9);
         headerId.setCellValue("Id");
         headerRarity.setCellValue("Rareza");
         headerColor.setCellValue("Color");
@@ -55,13 +60,16 @@ public class ToExcel {
         headerStock.setCellValue("Stock");
         headerCuantas.setCellValue("Cantidad");
         headerTotal.setCellValue("Total: ");
-        total.setCellType(CellType.FORMULA);
+        totalCards.setCellType(CellType.FORMULA);
+        totalValue.setCellType(CellType.FORMULA);
         
         if(this.withImages){
-            total.setCellFormula("SUBTOTAL(109, I:I)");
+        	totalCards.setCellFormula("SUBTOTAL(109, H:H)");
+        	totalValue.setCellFormula("SUBTOTAL(109, I:I)");
         }
         else{
-        	total.setCellFormula("SUBTOTAL(109, H:H)");
+        	totalCards.setCellFormula("SUBTOTAL(109, G:G)");
+        	totalValue.setCellFormula("SUBTOTAL(109, H:H)");
         }
 
 		CellStyle style = excel.createCellStyle();
@@ -99,10 +107,10 @@ public class ToExcel {
 	        
 	        celdaRarity.setCellValue(card.rarity);
             celdaColor.setCellValue(card.color);
-       	 	celdaPrice.setCellValue(Integer.parseInt(card.price));
+       	 	celdaPrice.setCellValue(Double.parseDouble(card.price));
 	        celdaSale.setCellValue(card.sale);
 	        celdaStock.setCellValue(card.stock);
-	        celdaCuantas.setCellValue(4);
+	        celdaCuantas.setCellValue(this.initialCant);
 	        if(this.withImages){
 		        celdaTotal.setCellFormula("E"  + (count + 1) + " * H" + (count + 1));		        
 	        }
@@ -120,17 +128,20 @@ public class ToExcel {
 		        anchor.setRow1(count);
 		        anchor.setRow2(count + 1);
 	
-		        byte[] imgBytes = yytScrapper.getYuyuteiCardImage(card.imgUrl);
+		        byte[] imgBytes = this.getCardImage(card.imgUrl);
 		        
 		        int pictureIndex = excel.addPicture(imgBytes, Workbook.PICTURE_TYPE_PNG);
 		        drawing.createPicture(anchor, pictureIndex);
 	        }
 	        
 	        this.progress = (float)(((float)count / (float)cards.size()) * 100);
-			//System.out.println(this.progress + "% by card");
+	        
+			if(local){
+				System.out.println(this.progress + "% by card");
+			}
 		}
 
-		hoja.setAutoFilter(new CellRangeAddress(0, 0, initialColumn, initialColumn + 5));
+		hoja.setAutoFilter(new CellRangeAddress(0, 0, initialColumn, initialColumn + 6));
 		
 		for(int i = initialColumn; i <= initialColumn + 5; i++){
 	        hoja.autoSizeColumn(i);
@@ -157,4 +168,25 @@ public class ToExcel {
 		return this.progress;
 	}
 
+	public byte[] getCardImage(String url) throws Exception{
+		
+		URL imageUrl = new URL(url);
+		
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		InputStream is = null;
+		
+		is = imageUrl.openStream ();
+		byte[] byteChunk = new byte[4096];
+		int n;
+
+		while ( (n = is.read(byteChunk)) > 0 ) {
+			baos.write(byteChunk, 0, n);
+		}
+		is.close();
+		
+		byte[] bytes = baos.toByteArray();
+		
+		return bytes;
+	}
+	
 }
