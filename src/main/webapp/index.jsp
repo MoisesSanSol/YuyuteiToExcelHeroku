@@ -186,6 +186,7 @@
 <p>Colección de JKTCG:</p>
 <select name="seriesJktcg" form="serieslist">
 <option value="WS_EN/EN_AB_W31/EN_AB_W31_DL.html">Angel Beats!</option>
+<option value="WS_EN/EN_AW_S18/EN_AW_S18_DL.html">Accel World</option>
 <option value="WS_EN/EN_AOT_S35/EN_AOT_S35_DL.html">Attack on Titan</option>
 <option value="WS_EN/EN_BD_W47/EN_BD_W47_DL.html">BanG Dream!</option>
 <option value="WS_EN/EN_BM_S15/EN_BM_S15_DL.html">Bakemono</option>
@@ -197,6 +198,7 @@
 <option value="WS_EN/EN_IMC_W41/EN_IMC_W41_DL.html">IM@S Cind. 1</option>
 <option value="WS_EN/EN_KC_S25/EN_KC_S25_DL.html">Kantai 1</option>
 <option value="WS_EN/EN_KC2_S31/EN_KC2_S31_DL.html">Kantai 2</option>
+<option value="WS_EN/EN_KCE1_SE28/EN_KCE1_SE28_DL.html">Kantai EB</option>
 <option value="WS_EN/EN_KLK_S27/EN_KLK_S27_DL.html">KILL la KILL</option>
 <option value="WS_EN/EN_LH_SE20/EN_LH_SE20_DL.html">Log Horizon</option>
 <option value="WS_EN/EN_LL_W24/EN_LL_W24_DL.html">Love Live! 1</option>
