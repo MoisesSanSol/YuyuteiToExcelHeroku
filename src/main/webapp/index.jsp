@@ -178,6 +178,7 @@
 <option value="kiznaiver">キズナイーバー</option>
 <option value="rz">Re：ゼロから始める異世界生活</option>
 <option value="chain">チェインクロニクル ～ヘクセイタスの閃～</option>
+<option value="starwars">STAR WARS</option>
 <option value="woo">うーさーのその日暮らし</option>
 <option value="promo">その他プロモーションカード</option>
 </select>
