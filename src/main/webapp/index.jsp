@@ -115,6 +115,7 @@
 <option value="fpi">Fate/kaleid liner プリズマ☆イリヤ Extra</option>
 <option value="fpi2.0">Fate/kaleid liner プリズマ☆イリヤ ツヴァイ! Extra</option>
 <option value="fpi2.0helz">Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！</option>
+<option value="fpi3.0">Fate/kaleid liner プリズマ☆イリヤ ドライ!! Extra</option>
 <option value="se">シャイニング・フォース イクサ</option>
 <option value="sre">シャイニング・レゾナンス</option>
 <option value="kf">ザ・キング・オブ・ファイターズ</option>
