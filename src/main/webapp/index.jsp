@@ -9,6 +9,8 @@
 <br>
 <p>Colección de yuyutei:</p>
 <select name="seriesYyt" form="serieslist">
+<option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
+<option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="dc">D.C./D.C.Ⅱ</option>
 <option value="dcext1.0">D.C./D.C.Ⅱ エクストラVol1</option>
 <option value="dcext2.0">D.C./D.C.Ⅱ エクストラVol2</option>
@@ -66,6 +68,7 @@
 <option value="symphogear">戦姫絶唱シンフォギア</option>
 <option value="symphogearg">戦姫絶唱シンフォギアG</option>
 <option value="symphogeargx">戦姫絶唱シンフォギアGX</option>
+<option value="symphogearxd">戦姫絶唱シンフォギアXD UNLIMITED</option>
 <option value="robono">ロボティクス・ノーツ</option>
 <option value="vivid">ビビッドレッド・オペレーション</option>
 <option value="lovelive">ラブライブ！</option>
@@ -76,6 +79,7 @@
 <option value="loveliveext">ラブライブ！ Extra</option>
 <option value="lovelivesimext">ラブライブ！ The School Idol Movie Extra</option>
 <option value="lovelivess">ラブライブ！サンシャイン!!</option>
+<option value="lovelivessext">ラブライブ！サンシャイン!! Extra</option>
 <option value="genei">幻影ヲ駆ケル太陽</option>
 <option value="nisekoi">ニセコイ</option>
 <option value="nisekoiext">ニセコイ: Extra</option>
@@ -90,7 +94,7 @@
 <option value="gochiusa">ご注文はうさぎですか？？</option>
 <option value="gochiusaext">ご注文はうさぎですか？？Extra</option>
 <option value="bd">BanG Dream!</option>
-<option value="konosuba">Konosuba - この素晴らしい世界に祝福を！</option>
+<option value="konosuba">この素晴らしい世界に祝福を！</option>
 <option value="skext1.0">宇宙をかける少女 Vol.1</option>
 <option value="mhext1.0">舞-HiME＆舞-乙HiME Vol.1</option>
 <option value="skext2.0">宇宙をかける少女 Vol.2</option>
@@ -172,6 +176,7 @@
 <option value="gstext">超爆裂異次元メンコバトル ギガントシューターつかさ Extra</option>
 <option value="tf">テラフォーマーズ</option>
 <option value="aot">進撃の巨人</option>
+<option value="aot2.0">進撃の巨人 Vol.2</option>
 <option value="sgs">スクールガールストライカーズ</option>
 <option value="puyopuyo">ぷよぷよ</option>
 <option value="oms">おそ松さん</option>
