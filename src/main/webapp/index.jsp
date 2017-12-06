@@ -9,6 +9,7 @@
 <br>
 <p>Colección de yuyutei:</p>
 <select name="seriesYyt" form="serieslist">
+<option value="hinaext1.0">-Hina Logi Vol.1 (ひなろじ 〜from Luck ＆ Logic〜 Vol.1)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="dc">D.C./D.C.Ⅱ</option>
