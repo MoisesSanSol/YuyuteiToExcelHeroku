@@ -12,6 +12,7 @@
 <option value="hinaext1.0">-Hina Logi Vol.1 (ひなろじ 〜from Luck ＆ Logic〜 Vol.1)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
+<option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
 <option value="dc">D.C./D.C.Ⅱ</option>
 <option value="dcext1.0">D.C./D.C.Ⅱ エクストラVol1</option>
 <option value="dcext2.0">D.C./D.C.Ⅱ エクストラVol2</option>
