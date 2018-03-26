@@ -11,6 +11,7 @@
 <select name="seriesYyt" form="serieslist">
 <option value="bd2.0">-BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
 <option value="hinaext1.0">-Hina Logi Vol.1 (ひなろじ 〜from Luck ＆ Logic〜 Vol.1)</option>
+<option value="gochiusadms">Is the Order a Rabbit?? ~Dear My Sister~ (ご注文はうさぎですか?? ～Dear My Sister～)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
