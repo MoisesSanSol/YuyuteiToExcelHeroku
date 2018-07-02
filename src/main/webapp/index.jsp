@@ -10,11 +10,13 @@
 <p>Colección de yuyutei:</p>
 <select name="seriesYyt" form="serieslist">
 <option value="bd2.0">-BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
+<option value="charlotte1.0">-Charlotte (Charlotte)</option>
 <option value="hinaext1.0">-Hina Logi Vol.1 (ひなろじ 〜from Luck ＆ Logic〜 Vol.1)</option>
-<option value="gochiusadms">Is the Order a Rabbit?? ~Dear My Sister~ (ご注文はうさぎですか?? ～Dear My Sister～)</option>
-<option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
+<option value="gochiusadms">-Is the Order a Rabbit?? ~Dear My Sister~ (ご注文はうさぎですか?? ～Dear My Sister～)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
+<option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
 <option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
+<option value="tf">-TerraFormars (テラフォーマーズ)</option>
 <option value="dc">D.C./D.C.Ⅱ</option>
 <option value="dcext1.0">D.C./D.C.Ⅱ エクストラVol1</option>
 <option value="dcext2.0">D.C./D.C.Ⅱ エクストラVol2</option>
@@ -91,7 +93,6 @@
 <option value="gf2.0">ガールフレンド（仮） Vol.2</option>
 <option value="tld2nd">To LOVEる -とらぶる- ダークネス 2nd</option>
 <option value="tld2nd2.0">To LOVEる -とらぶる- ダークネス 2nd Vol.2</option>
-<option value="charlotte1.0">Charlotte</option>
 <option value="imc">アイドルマスター シンデレラガールズ</option>
 <option value="imc2nd">アイドルマスター シンデレラガールズ 2nd SEASON</option>
 <option value="siyoko">カードゲームしよ子 アルティメットスターター</option>
@@ -178,7 +179,6 @@
 <option value="kancolleext">艦隊これくしょん -艦これ- 深海棲艦見ゆ Extra</option>
 <option value="shinchan">クレヨンしんちゃん</option>
 <option value="gstext">超爆裂異次元メンコバトル ギガントシューターつかさ Extra</option>
-<option value="tf">テラフォーマーズ</option>
 <option value="aot">進撃の巨人</option>
 <option value="aot2.0">進撃の巨人 Vol.2</option>
 <option value="sgs">スクールガールストライカーズ</option>
