@@ -11,10 +11,20 @@
 <select name="seriesYyt" form="serieslist">
 <option value="bd2.0">-BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
 <option value="charlotte1.0">-Charlotte (Charlotte)</option>
+<option value="fpi">-Fate/kaleid liner Prisma☆Illya (Fate/kaleid liner プリズマ☆イリヤ Extra)</option>
+<option value="fpi2.0">-Fate/kaleid liner Prisma☆Illya 2wei! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ! Extra)</option>
+<option value="fpi2.0helz">-Fate/kaleid liner Prisma☆Illya 2wei Herz! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！)</option>
+<option value="fpi3.0">-Fate/kaleid liner Prisma☆Illya 3rei!! (Fate/kaleid liner プリズマ☆イリヤ ドライ!! Extra)</option>
 <option value="hinaext1.0">-Hina Logi Vol.1 (ひなろじ 〜from Luck ＆ Logic〜 Vol.1)</option>
+<option value="gochiusa">-Is the Order a Rabbit?? (ご注文はうさぎですか？？)</option>
+<option value="gochiusaext">-Is the Order a Rabbit?? Extra Booster (ご注文はうさぎですか？？Extra)</option>
 <option value="gochiusadms">-Is the Order a Rabbit?? ~Dear My Sister~ (ご注文はうさぎですか?? ～Dear My Sister～)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
+<option value="magicamagireco">-Puella Magi ☆ Madoka Magica Side Story: Magia Record (マギアレコード 魔法少女まどか☆マギカ外伝)</option>
+<option value="rw">-Rewrite (Rewrite)</option>
+<option value="rwhf">-Rewrite Harvest festa! (Rewrite Harvest festa!)</option>
+<option value="rwanime">-Rewrite TV Anime (TVアニメ「Rewrite」)</option>
 <option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
 <option value="tf">-TerraFormars (テラフォーマーズ)</option>
 <option value="dc">D.C./D.C.Ⅱ</option>
@@ -62,9 +72,6 @@
 <option value="clext2.0">CLANNAD Vol2</option>
 <option value="clext3.0">CLANNAD Vol3</option>
 <option value="clpset">パワーアップセット CLANNAD</option>
-<option value="rw">Rewrite</option>
-<option value="rwhf">Rewrite Harvest festa!</option>
-<option value="rwanime">TVアニメ「Rewrite」</option>
 <option value="njext">日常</option>
 <option value="ddext1.0">DOG DAYS Extra</option>
 <option value="ddext2.0">DOG DAYS’Extra</option>
@@ -96,8 +103,6 @@
 <option value="imc">アイドルマスター シンデレラガールズ</option>
 <option value="imc2nd">アイドルマスター シンデレラガールズ 2nd SEASON</option>
 <option value="siyoko">カードゲームしよ子 アルティメットスターター</option>
-<option value="gochiusa">ご注文はうさぎですか？？</option>
-<option value="gochiusaext">ご注文はうさぎですか？？Extra</option>
 <option value="bd">BanG Dream!</option>
 <option value="konosuba">この素晴らしい世界に祝福を！</option>
 <option value="skext1.0">宇宙をかける少女 Vol.1</option>
@@ -121,10 +126,6 @@
 <option value="fsubw">Fate/stay night [Unlimited Blade Works]</option>
 <option value="fsubw2.0">Fate/stay night [Unlimited Blade Works] Vol.II</option>
 <option value="fzext">Fate/Zero Extra</option>
-<option value="fpi">Fate/kaleid liner プリズマ☆イリヤ Extra</option>
-<option value="fpi2.0">Fate/kaleid liner プリズマ☆イリヤ ツヴァイ! Extra</option>
-<option value="fpi2.0helz">Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！</option>
-<option value="fpi3.0">Fate/kaleid liner プリズマ☆イリヤ ドライ!! Extra</option>
 <option value="se">シャイニング・フォース イクサ</option>
 <option value="sre">シャイニング・レゾナンス</option>
 <option value="kf">ザ・キング・オブ・ファイターズ</option>
