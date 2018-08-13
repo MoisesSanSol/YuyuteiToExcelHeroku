@@ -10,6 +10,7 @@
 <p>Colección de yuyutei:</p>
 <select name="seriesYyt" form="serieslist">
 <option value="bd2.0">-BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
+<option value="bdsp">-BanG Dream! Girls Band Party! Special Set (スペシャルパック「バンドリ! ガールズバンドパーティ!」)</option>
 <option value="charlotte1.0">-Charlotte (Charlotte)</option>
 <option value="fpi">-Fate/kaleid liner Prisma☆Illya (Fate/kaleid liner プリズマ☆イリヤ Extra)</option>
 <option value="fpi2.0">-Fate/kaleid liner Prisma☆Illya 2wei! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ! Extra)</option>
