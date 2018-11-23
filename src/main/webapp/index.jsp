@@ -12,11 +12,15 @@
 <option value="bd2.0">-BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
 <option value="bdsp">-BanG Dream! Girls Band Party! Special Set (スペシャルパック「バンドリ! ガールズバンドパーティ!」)</option>
 <option value="charlotte1.0">-Charlotte (Charlotte)</option>
+<option value="darlifra">-Darling in the FRANXX (ダーリン・イン・ザ・フランキス)</option>
 <option value="fpi">-Fate/kaleid liner Prisma☆Illya (Fate/kaleid liner プリズマ☆イリヤ Extra)</option>
 <option value="fpi2.0">-Fate/kaleid liner Prisma☆Illya 2wei! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ! Extra)</option>
 <option value="fpi2.0helz">-Fate/kaleid liner Prisma☆Illya 2wei Herz! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！)</option>
 <option value="fpi3.0">-Fate/kaleid liner Prisma☆Illya 3rei!! (Fate/kaleid liner プリズマ☆イリヤ ドライ!! Extra)</option>
+<option value="godzillaext1.0">-Godzilla EB (アニメーション映画『GODZILLA』Extra)</option>
+<option value="godzilla">-Godzilla TD+ (アニメーション映画『GODZILLA』TD+)</option>
 <option value="hinaext1.0">-Hina Logi Vol.1 (ひなろじ 〜from Luck ＆ Logic〜 Vol.1)</option>
+<option value="hinaext2.0">-Hina Logi Vol.2 (ひなろじ 〜from Luck ＆ Logic〜 Vol.2)</option>
 <option value="gochiusa">-Is the Order a Rabbit?? (ご注文はうさぎですか？？)</option>
 <option value="gochiusaext">-Is the Order a Rabbit?? Extra Booster (ご注文はうさぎですか？？Extra)</option>
 <option value="gochiusadms">-Is the Order a Rabbit?? ~Dear My Sister~ (ご注文はうさぎですか?? ～Dear My Sister～)</option>
@@ -27,6 +31,8 @@
 <option value="rwhf">-Rewrite Harvest festa! (Rewrite Harvest festa!)</option>
 <option value="rwanime">-Rewrite TV Anime (TVアニメ「Rewrite」)</option>
 <option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
+<option value="ggo">-SAO Alternative GGO (ソードアート・オンライン オルタナティブ ガンゲイル・オンライン)</option>
+<option value="stg">-STEINS;GATE (STEINS;GATE)</option>
 <option value="tf">-TerraFormars (テラフォーマーズ)</option>
 <option value="dc">D.C./D.C.Ⅱ</option>
 <option value="dcext1.0">D.C./D.C.Ⅱ エクストラVol1</option>
