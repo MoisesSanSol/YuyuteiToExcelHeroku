@@ -32,7 +32,7 @@
 <option value="rwanime">-Rewrite TV Anime (TVアニメ「Rewrite」)</option>
 <option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
 <option value="ggo">-SAO Alternative Gun Gale Online (ソードアート・オンライン オルタナティブ ガンゲイル・オンライン)</option>
-<option value="starwars">STAR WARS (STAR WARS)</option>
+<option value="starwars">-STAR WARS (STAR WARS)</option>
 <option value="stg">-STEINS;GATE (STEINS;GATE)</option>
 <option value="tf">-TerraFormars (テラフォーマーズ)</option>
 <option value="sh">-The Melancholy of Haruhi Suzumiya (涼宮ハルヒの憂鬱)</option>
@@ -201,6 +201,7 @@
 <option value="promo">その他プロモーションカード</option>
 </select>
 <br><br>
+<input type="submit" name="submit" value="Generar Excel yuyu-tei"><br><br>
 <p>Opciones:
 </p>
   <input type="checkbox" name="paralelas" value = "true" checked="yes">Incluir paralelas<br>
@@ -215,8 +216,8 @@
   <option value="3">3</option>
   <option value="4" selected="selected">4</option>
 </select>&nbsp;Cantidad por defecto<br>  
-  <p>* Inluir el color incrementa el tiempo necesario para generar el excel.</p>
-  <p>** Inluir imágenes incrementa el tiempo necesario para generar el excel.</p>
+  <p>* Inluir el color incrementa el tiempo necesario para generar el excel.
+  <br>** Inluir imágenes incrementa el tiempo necesario para generar el excel.</p>
 </form>
 </div>
 </body>
