@@ -31,9 +31,13 @@
 <option value="rwhf">-Rewrite Harvest festa! (Rewrite Harvest festa!)</option>
 <option value="rwanime">-Rewrite TV Anime (TVアニメ「Rewrite」)</option>
 <option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
-<option value="ggo">-SAO Alternative GGO (ソードアート・オンライン オルタナティブ ガンゲイル・オンライン)</option>
+<option value="ggo">-SAO Alternative Gun Gale Online (ソードアート・オンライン オルタナティブ ガンゲイル・オンライン)</option>
+<option value="starwars">STAR WARS (STAR WARS)</option>
 <option value="stg">-STEINS;GATE (STEINS;GATE)</option>
 <option value="tf">-TerraFormars (テラフォーマーズ)</option>
+<option value="sh">-The Melancholy of Haruhi Suzumiya (涼宮ハルヒの憂鬱)</option>
+<option value="shext">-The Melancholy of Haruhi Suzumiya EB (涼宮ハルヒの憂鬱 Extra)</option>
+<option value="shpset">-The Melancholy of Haruhi Suzumiya PU (パワーアップセット　涼宮ハルヒの憂鬱)</option>
 <option value="dc">D.C./D.C.Ⅱ</option>
 <option value="dcext1.0">D.C./D.C.Ⅱ エクストラVol1</option>
 <option value="dcext2.0">D.C./D.C.Ⅱ エクストラVol2</option>
@@ -66,9 +70,6 @@
 <option value="vvs">ViVid Strike!</option>
 <option value="ls">らき☆すた</option>
 <option value="pr">Phantom</option>
-<option value="sh">涼宮ハルヒの憂鬱</option>
-<option value="shext">涼宮ハルヒの憂鬱 Extra</option>
-<option value="shpset">パワーアップセット　涼宮ハルヒの憂鬱</option>
 <option value="ir">禁書目録＆超電磁砲</option>
 <option value="ir2.0">禁書目録II＆超電磁砲</option>
 <option value="irs">とある科学の超電磁砲S</option>
@@ -196,56 +197,10 @@
 <option value="kiznaiver">キズナイーバー</option>
 <option value="rz">Re：ゼロから始める異世界生活</option>
 <option value="chain">チェインクロニクル ～ヘクセイタスの閃～</option>
-<option value="starwars">STAR WARS</option>
 <option value="woo">うーさーのその日暮らし</option>
 <option value="promo">その他プロモーションカード</option>
 </select>
 <br><br>
-<input type="submit" name="submit" value="Generar Excel yuyu-tei"><br><br>
-<p>Colección de JKTCG:</p>
-<select name="seriesJktcg" form="serieslist">
-<option value="WS_EN/EN_AB_W31/EN_AB_W31_DL.html">Angel Beats!</option>
-<option value="WS_EN/EN_AW_S18/EN_AW_S18_DL.html">Accel World</option>
-<option value="WS_EN/EN_AOT_S35/EN_AOT_S35_DL.html">Attack on Titan</option>
-<option value="WS_EN/EN_BD_W47/EN_BD_W47_DL.html">BanG Dream!</option>
-<option value="WS_EN/EN_BM_S15/EN_BM_S15_DL.html">Bakemono</option>
-<option value="WS_EN/EN_DG_S03/EN_DG_S03_DL.html">Disgaea</option>
-<option value="WS_EN/EN_FSU_S34/EN_FSU_S34_DL.html">Fate/UBW 1</option>
-<option value="WS_EN/EN_FSU2_S36/EN_FSU2_S36_DL.html">Fate/UBW 2</option>
-<option value="WS_EN/EN_FT_S02/EN_FT_S02_DL.html">Fairy Tail</option>
-<option value="WS_EN/EN_FZ_S17/EN_FZ_S17_DL.html">Fate/Zero</option>
-<option value="WS_EN/EN_IMC_W41/EN_IMC_W41_DL.html">IM@S Cind. 1</option>
-<option value="WS_EN/EN_KC_S25/EN_KC_S25_DL.html">Kantai 1</option>
-<option value="WS_EN/EN_KC2_S31/EN_KC2_S31_DL.html">Kantai 2</option>
-<option value="WS_EN/EN_KCE1_SE28/EN_KCE1_SE28_DL.html">Kantai EB</option>
-<option value="WS_EN/EN_KLK_S27/EN_KLK_S27_DL.html">KILL la KILL</option>
-<option value="WS_EN/EN_LH_SE20/EN_LH_SE20_DL.html">Log Horizon</option>
-<option value="WS_EN/EN_LL_W24/EN_LL_W24_DL.html">Love Live! 1</option>
-<option value="WS_EN/EN_LL2_W34/EN_LL2_W34_DL.html">Love Live! 2</option>
-<option value="WS_EN/EN_LLDX_W01/EN_LLDX_W01_DL.html">Love Live! DX1</option>
-<option value="WS_EN/EN_LLDX2_W02/EN_LLDX2_W02_DL.html">Love Live! DX2</option>
-<option value="WS_EN/EN_LSS_W45/EN_LSS_W45_DL.html">LL Sunshine!!</option>
-<option value="WS_EN/EN_MM_W17/EN_MM_W17_DL.html">Madoka</option>
-<option value="WS_EN/EN_MMR_W35/EN_MMR_W35_DL.html">Madoka R</option>
-<option value="WS_EN/EN_NK_W30/EN_NK_W30_DL.html">Nisekoi</option>
-<option value="WS_EN/EN_NKE1_WE22/EN_NKE1_WE22_DL.html">Nisekoi EB</option>
-<option value="WS_EN/EN_NM_S24/EN_NM_S24_DL.html">Nisemono</option>
-<option value="WS_EN/EN_P4_S01/EN_P4_S01_DL.html">Persona 4</option>
-<option value="WS_EN/EN_PD1_S22/EN_PD1_S22_DL.html">Project Diva 1</option>
-<option value="WS_EN/EN_PD2_S29/EN_PD2_S29_DL.html">Project Diva 2</option>
-<option value="WS_EN/EN_PIDX_S04/EN_PIDX_S04_DL.html">Prisma Illya DX</option>
-<option value="WS_EN/EN_SAO1_S20/EN_SAO1_S20_DL.html">SAO 1</option>
-<option value="WS_EN/EN_SAO2_S26/EN_SAO2_S26_DL.html">SAO 2</option>
-<option value="WS_EN/EN_SAOE1_SE23/EN_SAOE1_SE23_DL.html">SAO II EB1</option>
-<option value="WS_EN/EN_SAOE2_SE26/EN_SAOE2_SE26_DL.html">SAO II EB2</option>
-<option value="WS_EN/EN_SAOR_S47/EN_SAOR_S47_DL.html">SAO Re:Edit</option>
-<option value="WS_EN/EN_SY_W08/EN_SY_W08_DL.html">Suzumiya Haruhi</option>
-<option value="WS_EN/EN_SYE_WE09/EN_SYE_WE09_DL.html">Suzumiya Haruhi EB</option>
-<option value="WS_EN/EN_TL1_W37/EN_TL1_W37_DL.html">To Love Ru</option>
-</select>
-<br><br>
-  <input type="submit" name="submit" value="Generar Excel JKTCG"><br>
-<br>
 <p>Opciones:
 </p>
   <input type="checkbox" name="paralelas" value = "true" checked="yes">Incluir paralelas<br>
@@ -260,9 +215,7 @@
   <option value="3">3</option>
   <option value="4" selected="selected">4</option>
 </select>&nbsp;Cantidad por defecto<br>  
-  <p>* En el caso de yuyutei, en la página de precios de set no viene el color de las cartas, por lo que inluirlo hace que haya que ir buscando carta por carta e incrementa el tiempo neceario para obtener los datos de las cartas.
-  <br>En el caso de JKTCG, directamente no hay páginas de cartas, así que la información de colores se ha subido previamente de forma semi-manual sacándola de ws-tcg, por lo que es posible que una serie recién salida o si son promos que no están ws-tcg no tengan el color definido.
-  </p>
+  <p>* Inluir el color incrementa el tiempo necesario para generar el excel.</p>
   <p>** Inluir imágenes incrementa el tiempo necesario para generar el excel.</p>
 </form>
 </div>
