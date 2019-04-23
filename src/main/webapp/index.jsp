@@ -9,14 +9,18 @@
 <br>
 <p>Colección de yuyutei:</p>
 <select name="seriesYyt" form="serieslist">
+<option value="bd">-BanG Dream! (BanG Dream!)</option>
 <option value="bd2.0">-BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
 <option value="bdsp">-BanG Dream! Girls Band Party! Special Set (スペシャルパック「バンドリ! ガールズバンドパーティ!」)</option>
+<option value="bd2.0td">-BanG Dream! Girls Band Party! Trial Decks + (バンドリ！ ガールズバンドパーティ！トライアルデッキ+)</option>
+<option value="bd3.0">-BanG Dream! Girls Band Party! Vol 2 (バンドリ！ ガールズバンドパーティ! Vol.2)</option>
 <option value="charlotte1.0">-Charlotte (Charlotte)</option>
 <option value="darlifra">-Darling in the FRANXX (ダーリン・イン・ザ・フランキス)</option>
 <option value="fpi">-Fate/kaleid liner Prisma☆Illya (Fate/kaleid liner プリズマ☆イリヤ Extra)</option>
 <option value="fpi2.0">-Fate/kaleid liner Prisma☆Illya 2wei! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ! Extra)</option>
 <option value="fpi2.0helz">-Fate/kaleid liner Prisma☆Illya 2wei Herz! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！)</option>
 <option value="fpi3.0">-Fate/kaleid liner Prisma☆Illya 3rei!! (Fate/kaleid liner プリズマ☆イリヤ ドライ!! Extra)</option>
+<option value="gbs">-Goblin Slayer (ゴブリンスレイヤー)</option>
 <option value="godzillaext1.0">-Godzilla EB (アニメーション映画『GODZILLA』Extra)</option>
 <option value="godzilla">-Godzilla TD+ (アニメーション映画『GODZILLA』TD+)</option>
 <option value="hinaext1.0">-Hina Logi Vol.1 (ひなろじ 〜from Luck ＆ Logic〜 Vol.1)</option>
@@ -24,6 +28,7 @@
 <option value="gochiusa">-Is the Order a Rabbit?? (ご注文はうさぎですか？？)</option>
 <option value="gochiusaext">-Is the Order a Rabbit?? Extra Booster (ご注文はうさぎですか？？Extra)</option>
 <option value="gochiusadms">-Is the Order a Rabbit?? ~Dear My Sister~ (ご注文はうさぎですか?? ～Dear My Sister～)</option>
+<option value="kadokawas">-Kadokawa Sneaker Bunko (角川スニーカー文庫)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
 <option value="magicamagireco">-Puella Magi ☆ Madoka Magica Side Story: Magia Record (マギアレコード 魔法少女まどか☆マギカ外伝)</option>
