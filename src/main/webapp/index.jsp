@@ -14,6 +14,7 @@
 <option value="bdsp">-BanG Dream! Girls Band Party! Special Set (スペシャルパック「バンドリ! ガールズバンドパーティ!」)</option>
 <option value="bd2.0td">-BanG Dream! Girls Band Party! Trial Decks + (バンドリ！ ガールズバンドパーティ！トライアルデッキ+)</option>
 <option value="bd3.0">-BanG Dream! Girls Band Party! Vol 2 (バンドリ！ ガールズバンドパーティ! Vol.2)</option>
+<option value="sby">-Bunny Girl Senpai (青春ブタ野郎はバニーガール先輩の夢を見ない)</option>
 <option value="charlotte1.0">-Charlotte (Charlotte)</option>
 <option value="darlifra">-Darling in the FRANXX (ダーリン・イン・ザ・フランキス)</option>
 <option value="fpi">-Fate/kaleid liner Prisma☆Illya (Fate/kaleid liner プリズマ☆イリヤ Extra)</option>
