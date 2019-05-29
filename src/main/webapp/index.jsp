@@ -21,6 +21,7 @@
 <option value="fpi2.0">-Fate/kaleid liner Prisma☆Illya 2wei! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ! Extra)</option>
 <option value="fpi2.0helz">-Fate/kaleid liner Prisma☆Illya 2wei Herz! (Fate/kaleid liner プリズマ☆イリヤ ツヴァイ ヘルツ！)</option>
 <option value="fpi3.0">-Fate/kaleid liner Prisma☆Illya 3rei!! (Fate/kaleid liner プリズマ☆イリヤ ドライ!! Extra)</option>
+<option value="fshf">-Fate/stay night Heaven’s Feel The Movie 劇場版「Fate/stay night [Heaven’s Feel]」)</option>
 <option value="gbs">-Goblin Slayer (ゴブリンスレイヤー)</option>
 <option value="godzillaext1.0">-Godzilla EB (アニメーション映画『GODZILLA』Extra)</option>
 <option value="godzilla">-Godzilla TD+ (アニメーション映画『GODZILLA』TD+)</option>
@@ -33,6 +34,8 @@
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
 <option value="magicamagireco">-Puella Magi ☆ Madoka Magica Side Story: Magia Record (マギアレコード 魔法少女まどか☆マギカ外伝)</option>
+<option value="ppext">-PSYCHO-PASS(PSYCHO-PASS Extra)</option>
+<option value="sby">-Rascal Does Not Dream of Bunny Girl Senpai (青春ブタ野郎はバニーガール先輩の夢を見ない)</option>
 <option value="rw">-Rewrite (Rewrite)</option>
 <option value="rwhf">-Rewrite Harvest festa! (Rewrite Harvest festa!)</option>
 <option value="rwanime">-Rewrite TV Anime (TVアニメ「Rewrite」)</option>
@@ -181,7 +184,6 @@
 <option value="ca">CANAAN</option>
 <option value="miku">初音ミク -Project DIVA- f</option>
 <option value="miku2.0">初音ミク -Project DIVA- f 2nd</option>
-<option value="ppext">PSYCHO-PASS Extra</option>
 <option value="gargan">翠星のガルガンティア</option>
 <option value="ds2ext">TVアニメ「デビルサバイバー2」 Extra</option>
 <option value="kill">キルラキル</option>
