@@ -30,7 +30,7 @@
 <option value="gochiusa">-Is the Order a Rabbit?? (ご注文はうさぎですか？？)</option>
 <option value="gochiusaext">-Is the Order a Rabbit?? Extra Booster (ご注文はうさぎですか？？Extra)</option>
 <option value="gochiusadms">-Is the Order a Rabbit?? ~Dear My Sister~ (ご注文はうさぎですか?? ～Dear My Sister～)</option>
-<option value=jj>-JoJo’s Bizarre Adventure: Golden Wind (ジョジョの奇妙な冒険 黄金の風)</option>
+<option value="jj">-JoJo’s Bizarre Adventure: Golden Wind (ジョジョの奇妙な冒険 黄金の風)</option>
 <option value="fujimif">-Kadokawa Fujimi Fantasia Bunko (富士見ファンタジア文庫)</option>
 <option value="kadokawas">-Kadokawa Sneaker Bunko (角川スニーカー文庫)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
@@ -43,6 +43,15 @@
 <option value="rwanime">-Rewrite TV Anime (TVアニメ「Rewrite」)</option>
 <option value="saekano">-Saekano (冴えない彼女の育てかた)</option>
 <option value="ggo">-SAO Alternative Gun Gale Online (ソードアート・オンライン オルタナティブ ガンゲイル・オンライン)</option>
+<option value="se">-Shining Force Exa (シャイニング・フォース イクサ)</option>
+<option value="sre">-Shining Resonance (シャイニング・レゾナンス</option>
+<option value="sao">-Sword Art Online (ソードアート・オンライン)</option>
+<option value="sao2.0">-Sword Art Online vol.2 (ソードアート・オンライン vol.2)</option>
+<option value="saore">-Sword Art Online Re:Edit (ソードアート・オンライン Re：Edit)</option>
+<option value="sao2ext">-Sword Art Online II (ソードアート・オンラインII Extra)</option>
+<option value="sao2ext2.0">-Sword Art Online II vol.2 (ソードアート・オンラインII Extra Vol.2)</option>
+<option value="saoos">-Sword Art Online The Movie -Ordinal Scale- (劇場版 ソードアート・オンライン -オーディナル・スケール-)</option>
+<option value="saoaz">-Sword Art Online Alicization (ソードアート・オンライン アリシゼーション)</option>
 <option value="starwars">-STAR WARS (STAR WARS)</option>
 <option value="stg">-STEINS;GATE (STEINS;GATE)</option>
 <option value="tf">-TerraFormars (テラフォーマーズ)</option>
@@ -145,8 +154,6 @@
 <option value="fsubw">Fate/stay night [Unlimited Blade Works]</option>
 <option value="fsubw2.0">Fate/stay night [Unlimited Blade Works] Vol.II</option>
 <option value="fzext">Fate/Zero Extra</option>
-<option value="se">シャイニング・フォース イクサ</option>
-<option value="sre">シャイニング・レゾナンス</option>
 <option value="kf">ザ・キング・オブ・ファイターズ</option>
 <option value="sb">戦国BASARA</option>
 <option value="sbext1.0">戦国BASARA弐</option>
@@ -177,11 +184,6 @@
 <option value="gc">ギルティクラウン</option>
 <option value="aw">アクセル・ワールド</option>
 <option value="awib">アクセル・ワールド -インフィニット・バースト-</option>
-<option value="sao">ソードアート・オンライン</option>
-<option value="sao2.0">ソードアート・オンライン vol.2</option>
-<option value="saore">ソードアート・オンライン Re：Edit</option>
-<option value="sao2ext">ソードアート・オンラインII Extra</option>
-<option value="sao2ext2.0">ソードアート・オンラインII Extra Vol.2</option>
 <option value="kk">空の境界</option>
 <option value="ca">CANAAN</option>
 <option value="miku">初音ミク -Project DIVA- f</option>
