@@ -35,6 +35,8 @@
 <option value="kadokawas">-Kadokawa Sneaker Bunko (角川スニーカー文庫)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
+<option value="nisekoi">-Nisekoi(ニセコイ)</option>
+<option value="nisekoiext">-Nisekoi: Extra Booster(ニセコイ: Extra)</option>
 <option value="magicamagireco">-Puella Magi ☆ Madoka Magica Side Story: Magia Record (マギアレコード 魔法少女まどか☆マギカ外伝)</option>
 <option value="ppext">-PSYCHO-PASS (PSYCHO-PASS Extra)</option>
 <option value="sby">-Rascal Does Not Dream of Bunny Girl Senpai (青春ブタ野郎はバニーガール先輩の夢を見ない)</option>
@@ -122,8 +124,6 @@
 <option value="lovelivess">ラブライブ！サンシャイン!!</option>
 <option value="lovelivessext">ラブライブ！サンシャイン!! Extra</option>
 <option value="genei">幻影ヲ駆ケル太陽</option>
-<option value="nisekoi">ニセコイ</option>
-<option value="nisekoiext">ニセコイ: Extra</option>
 <option value="gf">ガールフレンド（仮）</option>
 <option value="gf2.0">ガールフレンド（仮） Vol.2</option>
 <option value="tld2nd">To LOVEる -とらぶる- ダークネス 2nd</option>
