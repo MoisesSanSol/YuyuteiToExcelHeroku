@@ -1,7 +1,7 @@
 ﻿<html>
 <meta charset="utf-8">
 <head>
-<title>Descargar precios de yuyu-tei como excel</title>
+<title>Descargar precios de yuyu-tei excel</title>
 </head>
 <body>
 <div>
@@ -124,6 +124,8 @@
 <option value="lovelivess">ラブライブ！サンシャイン!!</option>
 <option value="lovelivessext">ラブライブ！サンシャイン!! Extra</option>
 <option value="genei">幻影ヲ駆ケル太陽</option>
+<option value="nisekoi">ニセコイ</option>
+<option value="nisekoiext">ニセコイ: Extra</option>
 <option value="gf">ガールフレンド（仮）</option>
 <option value="gf2.0">ガールフレンド（仮） Vol.2</option>
 <option value="tld2nd">To LOVEる -とらぶる- ダークネス 2nd</option>
