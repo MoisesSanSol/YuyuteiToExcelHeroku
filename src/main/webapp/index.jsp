@@ -1,7 +1,7 @@
 ﻿<html>
 <meta charset="utf-8">
 <head>
-<title>Descargar precios de yuyutei o JKTCG como excel</title>
+<title>Descargar precios de yuyu-tei como excel</title>
 </head>
 <body>
 <div>
