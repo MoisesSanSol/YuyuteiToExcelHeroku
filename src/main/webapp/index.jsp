@@ -1,7 +1,7 @@
 ﻿<html>
 <meta charset="utf-8">
 <head>
-<title>Descargar precios de yuyu-tei excel</title>
+<title>Descargar precios de yuyu-tei como excel</title>
 </head>
 <body>
 <div>
@@ -9,6 +9,7 @@
 <br>
 <p>Colección de yuyutei:</p>
 <select name="seriesYyt" form="serieslist">
+<option value="promo">-Cartas Promocionales(その他プロモーションカード)</option>
 <option value="bd">-BanG Dream! (BanG Dream!)</option>
 <option value="bd2.0">-BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
 <option value="bdsp">-BanG Dream! Girls Band Party! Special Set (スペシャルパック「バンドリ! ガールズバンドパーティ!」)</option>
@@ -35,6 +36,13 @@
 <option value="kadokawas">-Kadokawa Sneaker Bunko (角川スニーカー文庫)</option>
 <option value="kmn">-Kemono Friends (けものフレンズ)</option>
 <option value="konosuba">-Konosuba (この素晴らしい世界に祝福を！)</option>
+<option value="ns">-Lyrical Nanoha StrikerS(リリカルなのは StrikerS)</option>
+<option value="nsm">-Lyrical Nanoha The Movie 1st(リリカルなのは The MOVIE 1st)</option>
+<option value="nsa">-Lyrical Nanoha A’s(リリカルなのは A’s)</option>
+<option value="nsm2">-Lyrical Nanoha The Movie 2nd A’s(リリカルなのは The MOVIE 2nd A’s)</option>
+<option value="nsm1m2">-Lyrical Nanoha The Movie 1st & 2nd A’s(リリカルなのは The MOVIE 1st ＆ 2nd A’s)</option>
+<option value="nsr">-Magical Girl Lyrical Nanoha Reflection (魔法少女リリカルなのは Reflection)</option>
+<option value="nsd">-Magical Girl Lyrical Nanoha Detonation (魔法少女リリカルなのは Detonation)</option>
 <option value="nisekoi">-Nisekoi(ニセコイ)</option>
 <option value="nisekoiext">-Nisekoi: Extra Booster(ニセコイ: Extra)</option>
 <option value="magicamagireco">-Puella Magi ☆ Madoka Magica Side Story: Magia Record (マギアレコード 魔法少女まどか☆マギカ外伝)</option>
@@ -84,11 +92,6 @@
 <option value="zm">ゼロの使い魔</option>
 <option value="zmf">ゼロの使い魔F</option>
 <option value="zmfext">ゼロの使い魔F Extra</option>
-<option value="ns">リリカルなのは StrikerS</option>
-<option value="nsm">リリカルなのは TheMOVIE 1st</option>
-<option value="nsa">リリカルなのは A’s</option>
-<option value="nsm2">リリカルなのは TheMOVIE 2nd A’s</option>
-<option value="nsm1m2">リリカルなのは The MOVIE 1st ＆ 2nd A’s</option>
 <option value="vvs">ViVid Strike!</option>
 <option value="ls">らき☆すた</option>
 <option value="pr">Phantom</option>
@@ -212,7 +215,6 @@
 <option value="rz">Re：ゼロから始める異世界生活</option>
 <option value="chain">チェインクロニクル ～ヘクセイタスの閃～</option>
 <option value="woo">うーさーのその日暮らし</option>
-<option value="promo">その他プロモーションカード</option>
 </select>
 <br><br>
 <input type="submit" name="submit" value="Generar Excel yuyu-tei"><br><br>

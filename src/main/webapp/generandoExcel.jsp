@@ -39,6 +39,6 @@
 	    <form action="download" id="download">
 		  <input type="hidden" value="submitDownload">
 		</form>
-		<button onclick="location.href='index.jsp'" id="atras">Nueva consulta</button>
+		<button onclick="location.href='index.jsp'" id="atras">Descargar otra</button>
     </body>
 </html>
