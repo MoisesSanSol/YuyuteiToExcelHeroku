@@ -65,6 +65,7 @@
 <option value="rwhf">- Rewrite Harvest festa! (Rewrite Harvest festa!)</option>
 <option value="rwanime">- Rewrite TV Anime (TVアニメ「Rewrite」)</option>
 <option value="saekano">- Saekano (冴えない彼女の育てかた)</option>
+<option value="saekano2.0">- Saekano Flat (冴えない彼女の育てかた♭)</option>
 <option value="ggo">- SAO Alternative Gun Gale Online (ソードアート・オンライン オルタナティブ ガンゲイル・オンライン)</option>
 <option value="se">- Shining Force Exa (シャイニング・フォース イクサ)</option>
 <option value="sre">- Shining Resonance (シャイニング・レゾナンス</option>
