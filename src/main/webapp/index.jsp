@@ -61,6 +61,9 @@
 <option value="sby">- Rascal Does Not Dream of Bunny Girl Senpai (青春ブタ野郎はバニーガール先輩の夢を見ない)</option>
 <option value="irs">- Railgun S (とある科学の超電磁砲S)</option>
 <option value="irspset">- Railgun S Power Up (パワーアップセット　とある科学の超電磁砲S)</option>
+<option value="rz">- Re:Zero -Starting Life in Another World- (Re：ゼロから始める異世界生活)</option>
+<option value="rz2.0">- Re:Zero -Starting Life in Another World- Vol.2 (Re：ゼロから始める異世界生活Vol.2)</option>
+<option value="rz3.0">- Re:Zero -Starting Life in Another World- Memory Snow (Re:ゼロから始める異世界生活 Memory Snow)</option>
 <option value="rw">- Rewrite (Rewrite)</option>
 <option value="rwhf">- Rewrite Harvest festa! (Rewrite Harvest festa!)</option>
 <option value="rwanime">- Rewrite TV Anime (TVアニメ「Rewrite」)</option>
@@ -218,7 +221,6 @@
 <option value="oms">おそ松さん</option>
 <option value="rinneext">境界のRINNE Extra</option>
 <option value="kiznaiver">キズナイーバー</option>
-<option value="rz">Re：ゼロから始める異世界生活</option>
 <option value="chain">チェインクロニクル ～ヘクセイタスの閃～</option>
 <option value="woo">うーさーのその日暮らし</option>
 </select>
