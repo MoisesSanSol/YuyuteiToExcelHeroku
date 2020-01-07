@@ -11,10 +11,11 @@
 <select name="seriesYyt" form="serieslist">
 <option value="promo">- Cartas Promocionales(その他プロモーションカード)</option>
 <option value="bd">- BanG Dream! (BanG Dream!)</option>
+<option value="bd2.0td">- BanG Dream! Girls Band Party! Trial Decks + (バンドリ！ ガールズバンドパーティ！トライアルデッキ+)</option>
 <option value="bd2.0">- BanG Dream! Girls Band Party! (バンドリ！ ガールズバンドパーティ！)</option>
 <option value="bdsp">- BanG Dream! Girls Band Party! Special Set (スペシャルパック「バンドリ! ガールズバンドパーティ!」)</option>
-<option value="bd2.0td">- BanG Dream! Girls Band Party! Trial Decks + (バンドリ！ ガールズバンドパーティ！トライアルデッキ+)</option>
-<option value="bd3.0">- BanG Dream! Girls Band Party! Vol 2 (バンドリ！ ガールズバンドパーティ! Vol.2)</option>
+<option value="bd3.0">- BanG Dream! Girls Band Party! Vol.2 (バンドリ！ ガールズバンドパーティ! Vol.2)</option>
+<option value="bd4.0">- BanG Dream! Vol.2 (BanG Dream!Vol.2)</option>
 <option value="sby">- Bunny Girl Senpai (青春ブタ野郎はバニーガール先輩の夢を見ない)</option>
 <option value="ccs">- CardCaptor Sakura Clear Card(カードキャプターさくら クリアカード編)</option>
 <option value="siyoko">- Card Game Shiyoko (カードゲームしよ子 アルティメットスターター)</option>
