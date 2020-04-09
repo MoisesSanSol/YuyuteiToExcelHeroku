@@ -17,6 +17,7 @@
 <option value="bd3.0">- BanG Dream! Girls Band Party! Vol.2 (バンドリ！ ガールズバンドパーティ! Vol.2)</option>
 <option value="bd4.0">- BanG Dream! Vol.2 (BanG Dream!Vol.2)</option>
 <option value="sby">- Bunny Girl Senpai (青春ブタ野郎はバニーガール先輩の夢を見ない)</option>
+<option value="sby2.0">- Bunny Girl Senpai Movie (青春ブタ野郎はゆめみる少女の夢を見ない)</option>
 <option value="ccs">- CardCaptor Sakura Clear Card(カードキャプターさくら クリアカード編)</option>
 <option value="siyoko">- Card Game Shiyoko (カードゲームしよ子 アルティメットスターター)</option>
 <option value="charlotte1.0">- Charlotte (Charlotte)</option>
