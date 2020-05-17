@@ -63,7 +63,11 @@ public class YuyuteiScrapper {
 				cardRow.url = "http://yuyu-tei.jp" + url.attr("href");
 				
 				Element img = card.select("img").first();
-				cardRow.imgUrl = "http://yuyu-tei.jp" + img.attr("src");
+				String imgUrl = img.attr("src");
+				if(!imgUrl.startsWith("http://yuyu-tei.jp")) {
+					imgUrl = "http://yuyu-tei.jp" + imgUrl;
+				}
+				cardRow.imgUrl = imgUrl;
 				
 				if(this.withColor){
 					cardRow.color = this.getCardColor(cardRow.url);
