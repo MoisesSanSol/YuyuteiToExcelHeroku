@@ -19,7 +19,7 @@
                     $('#progress').text(progress);
                     $.progress = parseInt(progress);
                 });
-                    setTimeout(checkProgress, 1000);
+                    setTimeout(checkProgress, 5000);
                 }
             }
         </script>

@@ -64,8 +64,8 @@ public class YuyuteiScrapper {
 				
 				Element img = card.select("img").first();
 				String imgUrl = img.attr("src");
-				if(!imgUrl.startsWith("http://yuyu-tei.jp")) {
-					imgUrl = "http://yuyu-tei.jp" + imgUrl;
+				if(!imgUrl.startsWith("https://yuyu-tei.jp")) {
+					imgUrl = "https://yuyu-tei.jp" + imgUrl;
 				}
 				cardRow.imgUrl = imgUrl;
 				
