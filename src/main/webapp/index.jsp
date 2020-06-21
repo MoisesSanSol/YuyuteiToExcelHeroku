@@ -49,6 +49,7 @@
 <option value="kill">- Kill la Kill (キルラキル)</option>
 <option value="killpset">- Kill la Kill Power Up(パワーアップセット　キルラキル)</option>
 <option value="konosuba">- Konosuba (この素晴らしい世界に祝福を！)</option>
+<option value="lod">- Lost Decade (ロストディケイド)</option>
 <option value="ns">- Lyrical Nanoha StrikerS(リリカルなのは StrikerS)</option>
 <option value="nsm">- Lyrical Nanoha The Movie 1st(リリカルなのは The MOVIE 1st)</option>
 <option value="nsa">- Lyrical Nanoha A’s(リリカルなのは A’s)</option>
